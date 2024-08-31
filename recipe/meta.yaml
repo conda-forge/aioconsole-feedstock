@@ -1,5 +1,5 @@
 {% set name = "aioconsole" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a3e52428d32623c96746ec3862d97483c61c12a2f2dfba618886b709415d4533
+  sha256: 64c93c17ef878fc68b4b379b9ed7fbb96c6fbc1b4e9a8378f9f899299ebdd37f
 
 build:
   noarch: python
